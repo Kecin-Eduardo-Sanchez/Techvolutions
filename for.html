@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foro Techvolutions </title>
+  <style>
+     body {
+            font-family: Algerian, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 20px;
+            background: linear-gradient(to right, #07FB69, #6F51C2); /* Transición lineal de azul a rojo */
+            padding: 10px 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: #2A88C2;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        footer {
+            background-color: #07FB69; 
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1 {
+            margin: 0;
+            color: white; /* Color del texto */
+            -webkit-text-stroke-width: 1px; /* Ancho del borde */
+            -webkit-text-stroke-color: black; /* Color del borde */
+            text-stroke-width: 1px; /* Ancho del borde */
+            text-stroke-color: black; /* Color del borde */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Estilos de los posts */
+        .post-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        .post-box {
+            box-shadow: 10px 10px 14px hsla(0, 0%, 9%, 0.384);
+            padding: 15px;
+            border-radius: 1.5rem;
+        }
+
+        .post-img {
+            width: 100%;
+            height: 200%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 2px;
+        }
+
+        .category {
+            font-size: 0.9rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: purple;
+        }
+
+        .post-title {
+            font-size: 30px;
+            font-weight: 600;
+            color: #35033b;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+   
+    .center {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    p{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+    <div >
+      <header>  
+        <h1 >  <img src="LogoTecvol.png" alt="logo" width="80" height="80" > Techvolutions</h1>
+      </header>
+    </div>
+  <nav>
+    <a href="interfaz_usuario.html">Usuario</a>
+    <a href="for.html">Acerca del software</a>
+    <a href="#">Contacto</a>
+    <a href="index.html">volver</a>
+  </nav>
+  <div class="center">
+    <h1>Requerimientos</h1>
+    <img src="Requerimientos.jpg" alt="imagen" width="800" height="400" >
+    <p>los Requerimientos son ................................</p>
+  </div>
+</body>
+</html>
